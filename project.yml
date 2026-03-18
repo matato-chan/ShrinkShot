@@ -1,0 +1,31 @@
+name: ShrinkShot
+options:
+  bundleIdPrefix: com.shrinkshot
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.9"
+
+targets:
+  ShrinkShot:
+    type: application
+    platform: macOS
+    sources:
+      - path: ShrinkShot
+        excludes:
+          - "**/*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shrinkshot.app
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSUIElement: true
+        CODE_SIGN_ENTITLEMENTS: ShrinkShot/ShrinkShot.entitlements
+        INFOPLIST_KEY_CFBundleDisplayName: ShrinkShot
+        KNOWN_REGIONS: [en, ja]
+    entitlements:
+      path: ShrinkShot/ShrinkShot.entitlements

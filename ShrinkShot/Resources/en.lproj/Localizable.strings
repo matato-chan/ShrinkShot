@@ -1,0 +1,35 @@
+// Menu Bar
+"auto_compress_on" = "✅ Auto Compress: ON";
+"auto_compress_off" = "Auto Compress: OFF";
+"settings" = "Settings...";
+"about" = "About ShrinkShot";
+"quit" = "Quit ShrinkShot";
+
+// Settings - Sections
+"resize_section" = "Resize";
+"output_section" = "Output";
+"watch_folder_section" = "Screenshot Folder";
+"general_section" = "General";
+
+// Settings - Resize
+"scale" = "Scale";
+"scale_description %lld" = "Scale images to %lld%% of original dimensions.";
+
+// Settings - Output
+"format" = "Format";
+"format_png" = "PNG (original)";
+"quality" = "Quality";
+
+// Settings - Watch Folder
+"change_folder" = "Change...";
+"select_folder_message" = "Select the folder to watch for screenshots";
+
+// Settings - Shortcut
+"shortcut_section" = "Shortcut";
+"hotkey" = "Toggle ON/OFF";
+"hotkey_recording" = "Press shortcut...";
+"hotkey_not_set" = "Click to set";
+"hotkey_clear" = "Clear";
+
+// Settings - General
+"launch_at_login" = "Launch at Login";

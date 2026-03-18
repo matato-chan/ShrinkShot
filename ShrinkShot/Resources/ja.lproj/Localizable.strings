@@ -1,0 +1,35 @@
+// Menu Bar
+"auto_compress_on" = "✅ 自動圧縮: ON";
+"auto_compress_off" = "自動圧縮: OFF";
+"settings" = "設定...";
+"about" = "ShrinkShot について";
+"quit" = "ShrinkShot を終了";
+
+// Settings - Sections
+"resize_section" = "リサイズ";
+"output_section" = "出力";
+"watch_folder_section" = "スクショの保存先フォルダ";
+"general_section" = "一般";
+
+// Settings - Resize
+"scale" = "スケール";
+"scale_description %lld" = "元の寸法の %lld%% に画像をスケーリングします。";
+
+// Settings - Output
+"format" = "フォーマット";
+"format_png" = "PNG（元のまま）";
+"quality" = "画質";
+
+// Settings - Watch Folder
+"change_folder" = "変更...";
+"select_folder_message" = "スクリーンショットを監視するフォルダを選択してください";
+
+// Settings - Shortcut
+"shortcut_section" = "ショートカット";
+"hotkey" = "ON/OFF 切り替え";
+"hotkey_recording" = "キーを押してください...";
+"hotkey_not_set" = "クリックして設定";
+"hotkey_clear" = "解除";
+
+// Settings - General
+"launch_at_login" = "ログイン時に自動起動";
