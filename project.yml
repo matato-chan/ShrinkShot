@@ -26,6 +26,7 @@ targets:
         INFOPLIST_KEY_LSUIElement: true
         CODE_SIGN_ENTITLEMENTS: ShrinkShot/ShrinkShot.entitlements
         INFOPLIST_KEY_CFBundleDisplayName: ShrinkShot
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
         KNOWN_REGIONS: [en, ja]
     entitlements:
       path: ShrinkShot/ShrinkShot.entitlements
