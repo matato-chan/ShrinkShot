@@ -7,7 +7,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         HotkeyManager.shared.start()
 
-        let hasLaunchedKey = "hasLaunchedBefore_v3"
+        let hasLaunchedKey = "hasLaunchedBefore"
         if !UserDefaults.standard.bool(forKey: hasLaunchedKey) {
             UserDefaults.standard.set(true, forKey: hasLaunchedKey)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {

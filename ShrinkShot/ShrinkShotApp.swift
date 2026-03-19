@@ -3,7 +3,6 @@ import SwiftUI
 @main
 struct ShrinkShotApp: App {
     @AppStorage(AppSettings.isEnabled) private var isEnabled = true
-    @AppStorage("hasLaunchedBefore_v1") private var hasLaunched = false
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var folderWatcher = FolderWatcher()
     var body: some Scene {
