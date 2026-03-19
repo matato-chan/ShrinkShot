@@ -13,6 +13,10 @@
   <a href="https://github.com/matato-chan/ShrinkShot/releases/download/v1.0.0/ShrinkShot-1.0.0.dmg">
     <img src="https://img.shields.io/badge/Download-v1.0.0-brightgreen?style=for-the-badge" alt="Download">
   </a>
+  &nbsp;
+  <a href="https://buymeacoffee.com/matato_chan">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
+  </a>
 </p>
 
 <p align="center">
