@@ -10,9 +10,19 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/matato-chan/ShrinkShot/releases/download/v1.0.0/ShrinkShot-1.0.0.dmg">
+    <img src="https://img.shields.io/badge/Download-v1.0.0-brightgreen?style=for-the-badge" alt="Download">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/platform-macOS%2014%2B-blue" alt="Platform">
   <img src="https://img.shields.io/badge/swift-5.9-orange" alt="Swift">
   <img src="https://img.shields.io/github/license/matato-chan/ShrinkShot" alt="License">
+</p>
+
+<p align="center">
+  Signed and notarized. Open the DMG, drag to Applications, done.
 </p>
 
 ---
